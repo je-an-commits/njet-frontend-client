@@ -1,0 +1,33 @@
+1. Card Usage
+
+    <Card className="max-w-md mx-auto mt-8">
+        {/* Visual Top Image Slot (Optional) */}
+        <div className="w-full h-48 bg-gradient-to-r from-blue-500 to-indigo-600 flex items-center justify-center text-white text-3xl font-bold">
+          Analytics Pro
+        </div>
+
+        <CardHeader>
+          <CardTitle>Upgrade Plan</CardTitle>
+          <CardDescription>Get full access to all your tracking metrics instantly.</CardDescription>
+        </CardHeader>
+
+        <CardContent>
+          <div className="space-y-2">
+            <div className="flex justify-between text-sm">
+              <span className="text-gray-500">Monthly Cost</span>
+              <span className="font-semibold text-gray-900">$29/mo</span>
+            </div>
+            <div className="flex justify-between text-sm">
+              <span className="text-gray-500">Data Retention</span>
+              <span className="font-semibold text-gray-900">365 Days</span>
+            </div>
+          </div>
+        </CardContent>
+
+        <CardFooter className="justify-end gap-2 pt-4">
+          <Button variant="secondary">Cancel</Button>
+          <Button variant="primary">Confirm & Pay</Button>
+        </CardFooter>
+      </Card>
+
+2. 

@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+:root {
+  --accent: #B05C08;
+  --accent-hover: #8e4a06;
+  --accent-ring: rgba(176, 92, 8, 0.5);
+  --primary: #611313;
+  --primary-hover: #4a0f0f;
+  --primary-ring: rgba(97, 19, 19, 0.5);
+}
+
+.no-arrows::-webkit-outer-spin-button,
+.no-arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-arrows[type=number] {
+  -moz-appearance: textfield;
+}
